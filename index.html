@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js" defer></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="learnToCodeContainer">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+        </div>
+
+        <div class="formContainer">
+            <p id="tryItPart"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+            <form id="form">
+                <div class="input-control">
+                    <input type="text" id="first_name" placeholder="First Name" data-error="dfsaddsadsad">
+                    <img class="errorImg firstNameErrorImg" src="./images/icon-error.svg" alt="" aria-hidden="true">
+                    <div class="errorMsg"></div>
+                </div>
+                <div class="input-control">
+                    <input type="text" id="last_name" placeholder="Last Name">
+                    <img class="errorImg lastNameErrorImg" src="./images/icon-error.svg" alt="" aria-hidden="true">
+                    <div class="errorMsg"></div>
+                </div>
+                <div class="input-control">
+                    <input type="text" id="email" placeholder="Email Address">
+                    <img class="errorImg emailErrorImg" src="./images/icon-error.svg" alt="" aria-hidden="true">
+                    <div class="errorMsg"></div>
+                </div>
+                <div class="input-control">
+                    <input type="text" id="password" placeholder="Password">
+                    <img class="errorImg passwordErrorImg" src="./images/icon-error.svg" alt="" aria-hidden="true">
+                    <div class="errorMsg"></div>
+                </div>
+                <div>
+                    <button type="submit" id="button">Claim your free trial</button>
+                </div>
+
+                <h6 clas="lastPart">By clicking the button, you are agreeing to our <span>Terms and Services</span></h6>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

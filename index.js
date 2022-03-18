@@ -90,7 +90,7 @@ const validation = () => {
 
 
 forma.addEventListener('submit', e => {
-    e.preventDefault();
+    // e.preventDefault();
     validation();
 
 

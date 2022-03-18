@@ -92,6 +92,7 @@ input {
 ::placeholder {
     font-size: 16px;
     font-weight: 600;
+    padding-left: 5px;
 }
 
 #button {
@@ -174,36 +175,42 @@ span {
         width: 35vw;
         align-items: stretch;
         text-align: left;
+        transform: translate(50px, 30px);
+        /* margin-left: 150px; */
         /* padding: 0 70px; */
     }
     .formContainer {
         height: 97vh;
         /* border: 5px solid rgb(47, 161, 255); */
-        width: 40vw;
+        width: 50vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
+        padding-top: 70px;
+        /* transform: translateX(-30px); */
     }
     form {
-        max-width: 500px;
+        max-width: 600px;
     }
     form input {
-        height: 50px;
+        height: 60px;
         border-radius: 5px;
         padding: 10px;
-        margin: 5px 0;
+        margin: 10px 0;
         border: 2px solid #e1e6eb;
     }
+    #button {
+        height: 60px;
+    }
     #tryItPart {
-        max-width: 500px;
+        max-width: 600px;
         padding: 20px 67px;
     }
     .learnToCodeContainer h1 {
         line-height: 2.5rem;
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 700;
-        padding-right: 200px;
+        padding-right: 100px;
         padding-top: 0;
         padding-bottom: 30px;
         /* border: 2px solid purple; */
